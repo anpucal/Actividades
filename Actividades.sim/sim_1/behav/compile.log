@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/toni/Documentos/Proyectos_Vivado_Julio/Actividades/Actividades.srcs/sources_1/new/rr_shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rr_shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/toni/Documentos/Proyectos_Vivado_Julio/Actividades/Actividades.srcs/sources_1/new/fpa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpa
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/toni/Documentos/Proyectos_Vivado_Julio/Actividades/Actividades.srcs/sources_1/new/two_stage_referee.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_stage_referee
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/toni/Documentos/Proyectos_Vivado_Julio/Actividades/Actividades.srcs/sim_1/new/two_stage_referee_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_stage_referee_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/toni/Documentos/Proyectos_Vivado_Julio/Actividades/Actividades.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
