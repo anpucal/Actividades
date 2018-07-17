@@ -22,9 +22,9 @@
 
 module two_stage_referee_tb();
 	
-	reg [3:0] reqs;
+	reg [0:3] reqs;
 	reg clk, rst;
-	wire [3:0] grants;
+	wire [0:3] grants;
 
 	two_stage_referee dut(
 		.reqs(reqs),
@@ -53,16 +53,16 @@ module two_stage_referee_tb();
 
 		#4
 
-		reqs = 4'b1001;
+		reqs = 4'b1011;
 
 		#4
 
-		reqs = 4'b1001;
+		reqs = 4'b0101;
         
         			
         #4
         
-        reqs = 4'b0011;
+        reqs = 4'b0110;
 
 		#4	
 

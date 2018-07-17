@@ -1,7 +1,4 @@
-Running: xsim.dir/two_stage_referee_tb_behav/xsimk -simmode gui -wdb two_stage_referee_tb_behav.wdb -simrunnum 0 -socket 58121
+Running: xsim.dir/two_stage_referee_tb_behav/xsimk -simmode gui -wdb two_stage_referee_tb_behav.wdb -simrunnum 0 -socket 40869
 Design successfully loaded
 Design Loading Memory Usage: 54480 KB (Peak: 54536 KB)
 Design Loading CPU Usage: 10 ms
-Simulation completed
-Simulation Memory Usage: 140316 KB (Peak: 201752 KB)
-Simulation CPU Usage: 10 ms

@@ -25,22 +25,23 @@ module rr_shifter (in, out, bits_to_shift, next_token);
 	parameter shift = 1'b0;
 
 	// Entradas y Salidas
-	input [3:0] in;
+	input [0:3] in;
 	input [1:0] bits_to_shift;
-	output [3:0] out;
+	output [0:3] out;
 	output[2:0] next_token; 
-	wire [7:0] aux;
+	wire [0:7] aux;
 	
 	assign aux = (~shift) ? 
-				 {in [3:0], in [3:0]} << bits_to_shift :
-			 	 {in [3:0], in [3:0]} << -bits_to_shift;
+				 {in [0:3], in [0:3]} << bits_to_shift :
+			 	 {in [0:3], in [0:3]} << -bits_to_shift;
 
 
     
-	assign out = aux[3:0];
+	assign out = aux[0:3];
 	
 	//next_token -> siguiente elemento mas prioritario
-	assign next_token = (~shift) ? 3'b000 : (out [0]) ? 3'b001 :
+	assign next_token = (~shift) ? 3'b000 : 
+	                        (out [0]) ? 3'b001 :
                             (out [1]) ? 3'b010 :
                             (out [2]) ? 3'b011 :
                             (out [3]) ? 3'b000 :

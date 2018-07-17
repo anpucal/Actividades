@@ -23,8 +23,8 @@
 module fpa(in, out);
 
 	// Entradas y Salidas
-	input [3:0] in;
-	output [3:0] out;
+	input [0:3] in;
+	output [0:3] out;
 //	output [2:0] token_fpa;
 
 	assign out [0] = in [0];

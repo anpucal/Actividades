@@ -23,16 +23,16 @@
 module two_stage_referee (clk, rst, reqs, grants);
 
 	// Entrades i eixides
-	input [3:0] reqs;
+	input [0:3] reqs;
 	input clk, rst;
-	output [3:0] grants;
+	output [0:3] grants;
 
 	reg [2:0] token;
 	wire [2:0] w_token;
 	wire [1:0] bits_to_shift;
 
 	// Cables
-	wire [3:0] lsh_to_fpa, fpa_to_rsh;
+	wire [0:3] lsh_to_fpa, fpa_to_rsh;
 	
 
 	localparam shift_left = 1'b0;
